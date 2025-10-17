@@ -31,8 +31,6 @@ Exemple:
 
 ![dichotomie](dichotomie.png)
 
-Vidéo en plus : https://www.youtube.com/watch?v=0vOS48RiOag
-
 
 2.	Tester votre fonction sur au moins trois cas différents :
 - Une recherche où l’élément est présent au milieu de la liste.
