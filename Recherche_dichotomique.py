@@ -36,7 +36,6 @@ print(binary_search(["chat"], "chien"))
 def binary_search_first_occurrence(sorted_list, target):
     low = 0
     high = len(sorted_list) - 1
-    index_target = []
     while low <= high:
         mid = (low + high) // 2
         if sorted_list[mid] == target:
@@ -47,10 +46,6 @@ def binary_search_first_occurrence(sorted_list, target):
             low = mid + 1
         else:
             high = mid - 1
-    if len(index_target) == 0:
-        return -1
-    else:
-        return min(index_target)
 
 
 print(binary_search_first_occurrence(sorted_list=[1, 2, 2, 2, 3, 4], target=2))
